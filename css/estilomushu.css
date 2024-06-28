@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{margin: 0;
+padding: 0;
+box-sizing: border box;}
+
+body{
+background-image: url(../img/bg.png); 
+background-position: center; background-attachment: fixed;}
+.bg-propuesta {background-color:
+#280901;
+width: 100%;}
+
+
+main{
+
+	background-color: transparent;
+}
+
+header{
+	height: 80px;
+	background-color:transparent;
+	}
+
+.categorias {float: right; 
+    margin-top: 27px;
+	}
+
+.categorias ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.categorias ul li {
+    display: inline;
+}
+
+.categorias ul li a {
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+    font-family: 'Krona One', sans-serif;
+    color: #FCE5CD;
+    margin-right: 45px;
+}
+
+
+.categorias ul li a:hover {
+    background-color: #280901;
+}
+
+
+nav{
+	width: 1280px;
+	background-color: #transparent;
+}
+
+
+.logo	{ font-family: 'Krona One', sans-serif;
+    color: #FCE5CD; font-size: 60px; text-align:center ; margin-top: 120px;}
+
+.títulos { font-family: 'Krona One', sans-serif;
+    color: #FCE5CD; font-size: 25px; text-align: left;  margin-top: 150px;}
+
+.slogan { font-family: 'Krona One', sans-serif;
+    color: #FCE5CD; font-size:18px ; text-align: center;}
+
+}
+
+.fuente-krona{font-family: "Krona One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #FCE5CD;
+}
+
+.fuente-nunito{
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  color: #FCE5CD;
+
+}
+
+
+.container {
+  width: 100%;
+  display: flex;
+}
+
+.section {
+  flex: 1;
+  margin: 0px;
+  padding: 15px;
+  border: 0px solid #ccc;
+}
+
+.imagenresto {
+ margin-top: 100px;
+}
+
+footer{
+	background-color: #280901; 
+	position: fixed; left: 0;bottom: 0;
+	width: 100%;
+	height: 60px;
+}
+
+.redes {text-align: center;
+	margin-top: 7px;
+	opacity: 65%;
+}
+
+
+.legal {
+	color: #cccccc;
+	text-align: center;
+	 font-family: 'Nunito Light', sans-serif;
+	 font-size: 9px;
+	 margin-top: 5px;
+}
+
+.contacto {
+	color: #cccccc;
+	text-align: right;
+	 font-family: 'Nunito Light', sans-serif;
+	 font-size: 11px;
+	 margin-top: 2px;
+	 margin-right: 25px;
+}
+
+
+.direccion {
+	color: #cccccc;
+	text-align: right;
+	 font-family: 'Nunito Light', sans-serif;
+	 font-size: 11px;
+	 margin-top: -40px;
+	 margin-right: 25px;
+}
+
+
+
+.telefono{
+	color: #cccccc;
+	text-align: right;
+	 font-family: 'Nunito Light', sans-serif;
+	 font-size: 11px;
+	 margin-top: 1px;
+	 margin-right: 25px;
+}
+
+
+.link-sin-subrayado {
+  text-decoration: none;
+}
+
+
+
+form{
+width: 300px;
+background-color: #000000; 
+padding: 20px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.caja{
+width: 100%;
+background-color: black;
+border-color: #FCE5CD;
+color: #FCE5CD;
+}
+
+.btn{
+width: 100%;
+height: 40px;
+border-radius: 10px;
+font-size: 15px;
+font-family: "Krona One", sans-serif;
+background-color: black;
+color: #FCE5CD;
+border-color: #FCE5CD;
+
+}
+
+
+.typo-form {font-family: "Krona One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #FCE5CD;
+  font-size: 12px;
+}
+
+
+.achico{
+	width: 250px;
+	height:150px;
+}
+
+.ensancho{
+	width: 800px;
+	height:250px;
+}
+
+.banner{
+    background-image: url(../img/foto2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.banner-propuesta{
+    background-image: url(../img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+
+.contenido-banner{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #00000070;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenido-banner h2, 
+.contenido-banner p {
+    color: #FCE5CD;
+	font-family: 'Krona One', sans-serif;
+	
+}
+
+.contenido-banner h2 {
+	font-size: 40px; 
+}
+
+.contenido-banner p {
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+#contenedor {
+	text-align: left;
+	width: 100%;
+	margin: auto;
+	margin-bottom: 3%;
+   }
+
+   #lateral {
+	width: 40%;  
+	float:right;
+	margin-left: 7%; 
+	}
+   
+   #principal {
+	width: 40%;
+	float: left;
+	margin-left: 7%;
+   }
+   
+   .clearfix:after {
+	 content: "";
+	 display: table;
+	 clear: both;
+   }
+
+   ul {
+	list-style: none;
+   }
+
+   #contenedor h3 {
+	font-family: 'Krona One', sans-serif;
+	color: #FCE5CD;
+	font-size: 20px;
+   }
+
+   .Estilo-Menu {
+	font-family: 'Nunito', sans-serif;
+	color: #FCE5CD;
+   }
+   
+   .Interlineado {
+	margin-top: 2%;
+   }
+
+   #contenedor h6 {
+	font-size: 16px;
+   }
+
+   #contenedor p {
+	font-size: 12px;
+   }
+
